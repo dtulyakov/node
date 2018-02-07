@@ -1,0 +1,10 @@
+FROM node:alpine
+
+COPY package.json /package.json
+
+RUN set -x \
+  && npm -g install \
+    html-minifier \
+    uglifyjs
+
+COPY htmlminifier.sh /htmlminifier.sh

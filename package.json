@@ -1,0 +1,15 @@
+{
+  "name": "node",
+  "title": "node docker",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.org/dtulyakov/node.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "html-minifier": "^3.5.8",
+    "uglifyjs": "^2.4.11"
+  },
+  "bundleDependencies": []
+}
