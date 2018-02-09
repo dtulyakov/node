@@ -8,3 +8,4 @@ RUN set -x \
     uglifyjs
 
 COPY htmlminifier.sh /htmlminifier.sh
+COPY run.sh /run.sh
